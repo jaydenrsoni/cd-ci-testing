@@ -9,6 +9,7 @@ import * as reducers from './reducers';
 const rootReducer = combineReducers(reducers);
 const store = createStore(rootReducer, {}, applyMiddleware(ReduxThunk));
 
+// test change
 class App extends Component {
     render() {
         return (
